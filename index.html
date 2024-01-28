@@ -1,0 +1,387 @@
+<html>
+
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale = 1'>
+    <link rel='stylesheet' href='css/css/w3.css'>
+
+    <title>Andika Aryadi Putra - 10123196</title>
+</head>
+
+<body>
+    <!-- ##Banner section## -->
+    <div class="w3-container">
+        <img src='css/css/img/bannerfix.png' style="margin-left: -3%; width: 105%;">
+    </div>
+
+    <!-- ##Navbar section## -->
+    <div class="w3-bar w3-indigo w3-card-2 w3-padding-16">
+        <!-- Home -->
+        <button class="w3-bar-item w3-button w3-round-large w3-xlarge" style='margin-left: 10%; font-weight: 600;'
+            onclick="content('Home')">HOME</button>
+        <!-- About me -->
+        <button class="w3-bar-item w3-button w3-round-large w3-large w3-right"
+            style='margin-right: 10%; font-weight: 500;' onclick="content('About')">About Me</button>
+        <!-- Perguruan tinggi -->
+        <button class="w3-bar-item w3-button w3-round-large w3-large w3-right" style='font-weight: 500;'
+            onclick="content('Perguruan')">Perguruan Tinggi</button>
+        <!-- Dropdown menu -->
+        <div class='w3-dropdown-hover w3-round-large w3-large w3-right' style='font-weight: 500;'>
+            <button class='w3-button w3-round-large'>Abdi Negara</button>
+            <div class='w3-dropdown-content w3-bar-block w3-card-4'>
+                <!-- About akmil -->
+                <button class="w3-bar-item w3-button w3-round-large w3-large w3-right" style='font-weight: 500;'
+                    onclick="content('Akmil')">AKMIL</button>
+                <!-- About akpol -->
+                <button class="w3-bar-item w3-button w3-round-large w3-large w3-right" style='font-weight: 500;'
+                    onclick="content('Akpol')">AKPOL</button>
+            </div>
+        </div>
+        <button class="w3-bar-item w3-button w3-round-large w3-large w3-right" style='font-weight: 500;'
+            onclick="content('Kedinasan')">Kedinasan</button>
+    </div>
+
+    <!-- ##Content section## -->
+    <!-- Content home -->
+    <div id="Home" class="w3-container w3-row jenis w3-animate-top"
+        style="background-image: url(css/css/img/lwaveindigo4.png); background-repeat: no-repeat; background-size: cover;">
+        <div class='w3-col s5 w3-animate-left' style='margin-left: 10%; margin-top: 3%;'>
+            <h1 class="w3-xxxlarge w3-text-white" style='font-weight: 700;'>
+                WELCOME!
+            </h1>
+            <h1 class="w3-xlarge w3-text-white" style='font-weight: 500;'>
+                BINGUNG ABIS LULUS MAU LANJUT KEMANA?
+            </h1>
+            <p class="w3-text-white" style='font-weight: 300;'>
+                Kamu berada di tempat yang tepat! Web ini adalah tempat kamu mendapatkan informasi seputar kelanjutan
+                studi pasca sekolah.
+            </p>
+        </div>
+        <div class='w3-col s5 w3-center'>
+            <img class='w3-animate-right' src='css/css/img/home.png' width='70%;' style='margin-top: 2%;'>
+        </div>
+    </div>
+
+    <!-- Content kedinasan -->
+    <div id="Kedinasan" class="w3-container w3-row jenis w3-animate-left"
+        style="display: none; background-image: url(css/css/img/pixel1.png); background-repeat: no-repeat; background-size: cover;">
+        <div class='w3-col s5 w3-animate-bottom' style='margin-left: 10%; margin-top: 2%;'>
+            <h1 class="w3-xxlarge w3-text-white" style='font-weight: 700;'>
+                SEKOLAH KEDINASAN
+            </h1>
+            <hr>
+            <p class="w3-text-white">
+                Selain PTN dan PTS, ada juga yang disebut sekolah tinggi kedinasan loh!. <b>Menangnya Sekolah
+                    Kedinasan
+                    itu apa sih??</b>
+            </p>
+            <p class="w3-text-dark-gray">
+                Sekolah kedinasan adalah sebutan bagi perguruan tinggi kedinasan yang ada di bawah naungan lembaga
+                pemerintahan dengan aturan ikatan dinas. Sekolah kedinasan akan menjanjikan
+                pengangkatan lulusannya menjadi Aparatur Sipil Negara (ASN) Calon Pegawai Negeri Sipil (CPNS)
+                setelah
+                lulus. Bisa dibilang lulus kuliah bisa langsung kerja! Keren banget kan perguruan tinggi yang satu
+                ini.
+            </p>
+            <button class="w3-btn w3-indigo w3-round-large" onclick="content('ckedinasan')">
+                Read More
+            </button>
+        </div>
+        <div class='w3-col s5 w3-center'>
+            <img class='w3-animate-bottom' src='css/css/img/kedinasan.png' width='60%;' style='margin-top: 10%;'>
+        </div>
+    </div>
+
+    <div id="ckedinasan" class="w3-container w3-row jenis w3-animate-bottom"
+        style="display: none; background-image: url(css/css/img/pixel1.png); background-repeat: no-repeat; background-size: cover;">
+        <div class='w3-animate-zoom' style='margin-left: 10%; margin-top: 3%;'>
+            <h1 class="w3-xxlarge w3-center w3-text-white" style='font-weight: 700;'>
+                SEKOLAH KEDINASAN
+            </h1>
+            <hr>
+            <p class="w3-left-align w3-text-white">
+                NAH, ternyata Sekolah kedinasan di Indonesia juga ada banyak dan menjangkau ke segala bidang loh!. Mulai
+                dari
+                keuangan, keamanan, pelayaran, udara, dan sebagainya. Inilah daftar sekolah tinggi kedinasan di
+                Indonesia yang bisa jadi pilihanmu!
+            </p>
+            <div class='w3-animate-top' style='margin-left: 10%;'>
+                <ol class="w3-left-align w3-text-dark-gray">
+                    <li><b>PKN STAN (Politeknik Keuangan Negara STAN)</b></li>
+                    <li><b>IPDN (Institut Pemerintahan Dalam Negeri)</b></li>
+                    <li><b>STSN (Sekolah Tinggi Sandi Negara)</b></li>
+                    <li><b>POLTEKIP (Politeknik Pemasyarakatan)</b></li>
+                    <li><b>POLTEKIM (Politeknik Imigrasi)</b></li>
+                    <li><b>STIN (Sekolah Tinggi Intelijen Negara)</b></li>
+                    <li><b>Politeknik Statistika STIS (Sekolah Tinggi Ilmu Statistik)</b></li>
+                    <li><b>STMKG (Sekolah Tinggi Meteorologi Klimatologi dan Geofisika)</b></li>
+                    <li><b>Politeknik Penerbangan Indonesia (PPI) Curug</b></li>
+                    <li><b>Sekolah Tinggi Ilmu Pelayaran (STIP)</b></li>
+                    <li><b>Politeknik Transportasi Darat Indonesia (PTDI)</b></li>
+                    <li><b>Politeknik Perkeretaapian Indonesia (PPI)</b></li>
+                    <li><b>Politeknik Keselamatan Transportasi Jalan (PKTJ)</b></li>
+                    <li><b>Akademi Teknik dan Keselamatan Penerbangan (ATKP)</b></li>
+                </ol>
+            </div>
+            <br>
+            <button class="w3-btn w3-indigo w3-round-large" onclick="content('Kedinasan')">
+                Kembali
+            </button>
+            <p>
+
+            </p>
+        </div>
+    </div>
+
+    <!-- Content abdi negara -->
+    <!-- Content akmil -->
+    <div id="Akmil" class="w3-container w3-row jenis w3-animate-top"
+        style="display: none; background-image: url(css/css/img/pixel1.png); background-repeat: no-repeat; background-size: cover;">
+        <div class='w3-col s5 w3-animate-left' style='margin-left: 10%; margin-top: 1%;'>
+            <h1 class="w3-xxlarge w3-text-white" style='font-weight: 700;'>
+                AKADEMI MILITER
+            </h1>
+            <hr>
+            <p class="w3-text-white">
+                Siapa yang disini cita-citanya jadi tentanra?? Nah <b>Akademi Militer</b> ini cocok banget buat kamu
+                yang pengen jadi pelindung negara kita.
+            </p>
+            <p class="w3-text-dark-gray">
+                Akademi Militer atau biasa disingkat Akmil adalah perguruan tinggi kedinasan yang dikelola oleh
+                Pemerintah Republik Indonesia tempat calon-calon perwira Tentara Nasional Indonesia (TNI) menempuh
+                pendidikan militer. Perguruan tinggi ini berada di bawah naungan Kementerian Pertahanan Nasional
+                Republik Indonesia dan berlokasi di Kota Magelang, Jawa Tengah, Indonesia.
+            </p>
+            <p class="w3-text-dark-gray">
+                Lulusan Akmil akan diangkat menjadi perwira TNI Angkatan Darat (AD) yang mempunyai pangkat letnan dua,
+                sesuai dengan korps atau kecabangan masing-masing. Selain itu, lulusan Akmil juga akan memiliki
+                kompetensi dasar jabatan golongan VIII atau setingkat komandan peleton. Mahasiswa lulusan Akmil juga
+                berhak menyandang gelar Sarjana Terapan Pertahanan atau S.Tr., yang setara dengan jenjang pendidikan
+                Strata I.
+            </p>
+            <br>
+            <button class="w3-btn w3-indigo w3-round-large" onclick="content('Home')">
+                Kembali
+            </button>
+            <p>
+
+            </p>
+        </div>
+        <div class='w3-col s5 w3-right'>
+            <img class="w3-animate-zoom" src='css/css/img/akmil.png' width='60%;' style='margin-top: 15%;'>
+        </div>
+    </div>
+
+    <!-- Content akpol -->
+    <div id="Akpol" class="w3-container w3-row jenis w3-animate-bottom"
+        style="display:none; display: none; background-image: url(css/css/img/pixel1.png); background-repeat: no-repeat; background-size: cover;">
+        <div class='w3-col s5 w3-animate-left' style='margin-left: 10%; margin-top: 1%;'>
+            <h1 class="w3-xxlarge w3-text-white" style='font-weight: 700;'>
+                AKADEMI MILITER
+            </h1>
+            <hr>
+            <p class="w3-text-white">
+                Selain tentara ada juga nih <b>Akademi Polisi</b>. Ini cocok banget buat kamu
+                yang punya cita-cita buat jadi seorang polisi.
+            </p>
+            <p class="w3-text-dark-gray">
+                Akademi Kepolisian (disingkat Akpol) adalah jalur penerimaan anggota Polri yang dikhususkan untuk
+                membina calon perwira pertama. Dibandingkan dengan jalur lainnya, AKPOL menempuh durasi pendidikan
+                terlama yaitu 4 tahun. Setelah lulus, kamu akan memperoleh gelar Sarjana Ilmu Kepolisian (S.IP) dan
+                langsung berpangkat Inspektur Tingkat Dua (IPDA). AKPOL ibarat jalur fast track bagi mereka yang ingin
+                berkarir sebagai Kapolsek, Kapolres, Kapolda, dan jajaran tinggi lain di Kepolisian.
+            </p>
+            <p class="w3-text-dark-gray">
+                Perlu kamu garisbawahi, AKPOL hanya menerima lulusan SMA/MA jurusan IPA/IPS dengan usia minimal 16 tahun
+                dan maksimal 21 tahun saat memulai pendidikan di Semarang. Kamu juga harus melampirkan skor TOEFL
+                minimal 500. Karena bertujuan untuk menghasilkan lulusan terbaik, seleksi AKPOL bisa dibilang lebih
+                ketat daripada seleksi Polri lainnya.
+            </p>
+            <br>
+            <button class="w3-btn w3-indigo w3-round-large" onclick="content('Home')">
+                Kembali
+            </button>
+            <p>
+
+            </p>
+        </div>
+        <div class='w3-col s5 w3-center'>
+            <img class="w3-animate-right" src='css/css/img/akpol.png' width='60%;' style='margin-top: 15%;'>
+        </div>
+    </div>
+
+    <!-- Content perguruan tinggi -->
+    <div id="Perguruan" class="w3-container jenis w3-row w3-animate-top"
+        style="display:none; background-image: url(css/css/img/pixel1.png); background-repeat: no-repeat; background-size: cover;">
+        <div class='w3-col s5 w3-animate-left' style='margin-left: 10%; margin-top: 2%;'>
+            <h1 class="w3-xxlarge w3-text-white" style='font-weight: 700;'>
+                PERGURUAN TINGGI
+            </h1>
+            <hr>
+            <p class="w3-text-white">
+                Nah ini dia salah satu pilihan paling banyak diketahui dan paling banyak diikuti setiap tahunnya.
+            </p>
+            <p class="w3-text-dark-gray">
+                <b>Perguruan Tinggi</b> adalah satuan pendidikan yang menyelenggarakan pendidikan tinggi dan dapat
+                berbentuk akademi, politeknik, sekolah tinggi, institut, atau universitas. Perguruan tinggi berkewajiban
+                menyelenggarakan pendidikan, penelitian, dan pengabdian kepada masyarakat. Perguruan tinggi dapat
+                menyelenggarakan program akademik, profesi, dan/atau vokasi. Gelar akademik, profesi, atau vokasi hanya
+                digunakan oleh lulusan dari perguruan tinggi yang dinyatakan berhak memberikan gelar akademik, profesi,
+                atau vokasi.
+            </p>
+            <p class="w3-text-dark-gray">
+                <b>Perguruan Tinggi</b> dibagi menjadi dua yaitu <b>Perguruan Tinggi Negeri</b> dan <b>Perguruan Tinggi
+                    Swasta</b>.
+            </p>
+            <button class="w3-btn w3-blue-gray w3-round-large" style='margin-left: 5%;' onclick="content('PTN')">
+                Perguruan Tinggi Negeri
+            </button>
+            <button class="w3-btn w3-blue-gray w3-round-large" style='margin-left: 5%;' onclick="content('PTS')">
+                Perguruan Tinggi Swasta
+            </button>
+            <p>
+                <br>
+                <button class="w3-btn w3-indigo w3-round-large" onclick="content('Home')">
+                    Kembali
+                </button>
+            <p>
+
+            </p>
+        </div>
+        <div class='w3-col s5 w3-center'>
+            <img class='w3-animate-right' src='css/css/img/perguruan.png' width='70%;' style='margin-top: 10%;'>
+        </div>
+    </div>
+
+    <!-- Content perguruan tinggi negeri -->
+    <div id="PTN" class="w3-container jenis w3-row w3-animate-bottom"
+        style="display:none; background-image: url(css/css/img/pixel1.png); background-repeat: no-repeat; background-size: cover;">
+        <div class='w3-col s5 w3-animate-zoom' style='margin-left: 10%; margin-top: 2%;'>
+            <h1 class="w3-xxlarge w3-text-white" style='font-weight: 700;'>
+                PERGURUAN TINGGI NEGERI
+            </h1>
+            <hr>
+            <p class="w3-text-white">
+                <b>Perguruan Tinggi Negeri</b> adalah perguruan tinggi yang dikelola oleh
+                pemerintah, tepatnya berada di bawah koordinasi Kementerian Pendidikan dan Kebudayaan.
+            </p>
+            <p class="w3-text-dark-gray">
+                Sebagai perguruan
+                tinggi milik pemerintah, PTN diwajibkan untuk mencari dan menjaring calon mahasiswa yang memiliki
+                potensi akademik tinggi, tetapi kurang mampu secara ekonomi, dan calon mahasiswa dari daerah terdepan,
+                terluar, dan tertinggal untuk melanjutkan pendidikan di PTN tersebut. Adapun kuota yang ditetapkan
+                adalah paling sedikit 20% dari seluruh mahasiswa baru yang diterima dan tersebar pada semua program
+                studi.
+            </p>
+            <p class="w3-text-dark-gray">
+                Dalam penerimaan mahasiswa baru, PTN memiliki 3 jalur penerimaan, yaitu SNBP, SNBT, dan Seleksi
+                Mandiri dengan mengacu pada kebijakan masing-masing kampus. Berdasarkan data Pangkalan Data Pendidikan
+                Tinggi, jumlah Perguruan Tinggi Negeri di Indonesia mencapai 122 kampus.
+            </p>
+            <p class="w3-text-dark-gray">
+                Biaya pendidikan di PTN dibantu dan diberikan subsidi oleh negara, sehingga secara umum tergolong lebih
+                rendah dibandingkan Perguruan Tinggi Swasta (PTS). Beberapa contoh perguruan tinggi negeri unggul yang
+                ada di Indonesia antara lain adalah: Universitas Indonesia, Universitas Gadjah Mada, Institut Pertanian
+                Bogor, Institut Teknologi Sepuluh Nopember, dan Universitas Brawijaya.
+            </p>
+            <p>
+                <br>
+                <button class="w3-btn w3-indigo w3-round-large" onclick="content('Perguruan')">
+                    Kembali
+                </button>
+            <p>
+
+            </p>
+        </div>
+        <div class='w3-col s5 w3-center'>
+            <img class='w3-animate-zoom' src='css/css/img/perguruan.png' width='70%;' style='margin-top: 10%;'>
+        </div>
+    </div>
+
+    <!-- Content perguruan tinggi swasta -->
+    <div id="PTS" class="w3-container jenis w3-row w3-animate-bottom"
+        style="display:none; background-image: url(css/css/img/pixel1.png); background-repeat: no-repeat; background-size: cover;">
+        <div class='w3-col s5 w3-animate-zoom' style='margin-left: 10%; margin-top: 2%;'>
+            <h1 class="w3-xxlarge w3-text-white" style='font-weight: 700;'>
+                PERGURUAN TINGGI SWASTA
+            </h1>
+            <hr>
+            <p class="w3-text-white">
+                <b>Perguruan Tinggi Swasta</b> adalah perguruan tinggi yang didirikan dan dikelola oleh masyarakat
+                dengan membantuk badan penyelenggara berbadan hukum yang berprinsip nirlaba dan wajib memperoleh izin
+                Meteri. 
+            </p>
+            <p class="w3-text-dark-gray">
+                Badan penyelenggara tersebut dapat berbentuk yayasan, perkumpulan, atau bentuk lainnya sesuai
+                undang-undang. Proses koordinasi PTS dilakukan oleh Koordinator Perguruan Tinggi Swasta (Kopertis).
+            </p>
+            </p>
+            <p class="w3-text-dark-gray">
+                Dalam penerimaan mahasiswa baru, PTS memiliki beberapa jalur seleksi yaitu jalur prestasi (tanpa tes),
+                jalur tes, jalur undangan dengan sekolah yang telah memiliki kerja sama, dan lain-lain. Berdasarkan data
+                Pangkalan Data Pendidikan Tinggi, jumlah PTS di Indonesia pada 2020 mencapai 3.044 kampus.
+            </p>
+            <p class="w3-text-dark-gray">
+                Untuk pembiayaan kuliah mahasiswa, PTS tidak terikat dengan aturan yang membatasi pembiayaan pendidikan,
+                artinya penentuan biaya kuliah mahasiswa PTS ditentukan oleh yayasan yang menaungi perguruan tinggi
+                tersebut. Secara umum komponen biaya pendidikan PTS terbagi menjadi biaya pendaftaran, biaya registrasi
+                ulang, biaya SPP per semester, uang sumbangan institusi, biaya UTS dan UAS, biaya praktik lapangan, dan
+                biaya lainnya tergantung dengan kebijakan masing-masing PTS.
+            </p>
+            <p>
+                <br>
+                <button class="w3-btn w3-indigo w3-round-large" onclick="content('Perguruan')">
+                    Kembali
+                </button>
+            <p>
+
+            </p>
+        </div>
+        <div class='w3-col s5 w3-center'>
+            <img class='w3-animate-zoom' src='css/css/img/perguruan.png' width='70%;' style='margin-top: 10%;'>
+        </div>
+    </div>
+
+    <!-- Content about -->
+    <div id="About" class="w3-container jenis w3-animate-bottom"
+        style="display:none; background-image: url(css/css/img/lwaveindigo3.png); background-repeat: no-repeat; background-size: cover;">
+        <center>
+            <div class="w3-container w3-card w3-round-large w3-animate-zoom" style="width: 20%;">
+                <p>
+
+                </p>
+                <img src="css/css/img/dika.jpg" style="width: 70%;">
+                <p>Andika Aryadi Putra</p>
+                <p>Student at Universitas Komputer Indonesia</p>
+                <hr>
+                <p>10123196</p>
+                <p>INFORMATICS-5</p>
+            </div>
+        </center>
+        <div class="w3-container">
+            <img class="w3-circle" src="">
+        </div>
+        <br>
+        <center>
+            <button class="w3-btn w3-indigo w3-round-large" onclick="content('Home')">
+                Kembali
+            </button>
+            <p>
+
+            </p>
+        </center>
+    </div>
+
+    <!-- ##Javascript section## -->
+    <script>
+        function content(namajenis) {
+            var i;
+            var x = document.getElementsByClassName('jenis');
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = 'none';
+            }
+            document.getElementById(namajenis).style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
